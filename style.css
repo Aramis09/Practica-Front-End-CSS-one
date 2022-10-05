@@ -1,0 +1,81 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(./IMG_2843.jpg);
+    background-size: 100%;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    background-image: linear-gradient(to right,#5A5A5A,black);
+    z-index: 50;
+    
+    
+}
+header div {
+    display: flex;
+    align-items: center;
+}
+header div img{
+    height: 70px;
+    margin-right: 0.2vw;
+    margin-left: 2vw;
+}
+.enlaces{
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 2rem;
+    margin-right: 1vw;
+    color: aliceblue;
+}
+@keyframes fanimados{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+header nav {
+    background-image: linear-gradient(135deg,#FFF706,#505488,#FFA406,#5A5A5A,#5A5A5A,#653805,#FFF706) ;
+    background-size:200% 500%;
+    animation: fanimados 10s infinite;
+    border-radius: 1rem;
+}
+section{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.Armatupc{
+    width: 35vw;
+    height: 25vw;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    color: aliceblue;
+    margin: 3rem;
+}
+
+.Armatupc p {
+    font-size: larger;
+    text-align: left;
+}
+
+
+
+
